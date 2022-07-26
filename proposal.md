@@ -1,7 +1,7 @@
 # General description of project
 > E.g. Building an inventory tracking system for my CCA
 
-#Goals of project
+# Goals of project
 > E.g. Streamline tracking and cataloguing of inventory to facilitate member loans, repairs & Semester stock-taking needs
 
 # Listing of features
