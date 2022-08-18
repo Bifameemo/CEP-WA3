@@ -43,6 +43,38 @@
 > - begin implementing actual gameplay
 
 ## Week 7 (9 Aug - 15 Aug)
+> Goals accomplished:
+> - created Bus() constructor
+>   - keeps track of
+>       - day, which will later affect the how the difficulty scales
+>       - Customers in the store, also referred to as passengers
+>   - method to calculate overall profits at the end of the day
+>   - creates new passengers / Customers every new day
+> - basic gameplay
+>   - loop through 5 key interactions
+>     1. View your info
+>     2. View a Customer's shopping list
+>     3. Buy a Product from a Customer
+>     4. Sell a Product to a Customer
+>     5. End the day
+>   - input checking to ensure all user inputs are valid
+> - Player() update
+>   - added name, score and rating
+>   - created get_info() method to print name, balance, rating, score and available stock
+> - Customer() update
+>   - created methods to print their wishlists
+> - implemented os.system("CLS") at certain points to make the game more readable when played in Command Prompt
+
+> Problems encountered:
+> - I was too focused on actually coding instead of finishing this devlog.md update
+> - initially learning how to implement user input validation needed some Googling to understand try: and except:
+
+> Future goals:
+> - increase code readability by separating it into separate files
+> - implement win and lose conditions + daily rent / tax deduction
+> - implement rating system that checks if each Customer as interacted with
+> - balance values + create a formula to calculate score
+> - find a way to print all passengers' wishlists at once in page format (?)
 
 ## Week 8 (16 Aug - 22 Aug)
 
