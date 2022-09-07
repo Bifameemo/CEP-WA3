@@ -77,9 +77,51 @@
 > - find a way to print all passengers' wishlists at once in page format (?)
 
 ## Week 8 (16 Aug - 22 Aug)
+> Goals accomplished:
+> - separated code into 5 separate files
+> - player.py
+> - customer.py
+> - product.py
+> - bus.py
+> - main.py
+
+> Problems encountered:
+> - since it was my first time using multiple files in one project, deciding what to separate into individual files and what to keep together took time
+> - I was also unfamiliar with how to import functions from other files
+
+> Future goals:
+> - implement win and lose conditions + daily rent / tax deduction
+> - implement rating system that checks if each Customer as interacted with
+> - balance values + create a formula to calculate score
+> - find a way to print all passengers' wishlists at once in page format (?)
+> - create .txt files and file handling to store and read Customer and Product details
 
 ## Week 9 (23 Aug - 29 Aug)
+> Goals accomplished:
+> - implemented proper rating system
+>   - checks if every customer was interacted with and increments / decrements Player's rating
+> - implemented win / lose conditions
+>   - bankruptcy: when Player's balance falls below 0
+>   - negligence: when Player's rating falls below 0
+>   - success: when Player's score exceeds a certain point, to be determined
+
+> Problems encountered:
+> - Nil
+
+> Future goals:
+> - balance values + create a formula to calculate score
+> - find a way to print all passengers' wishlists at once in page format (?)
+> - create .txt files and file handling to store and read Customer and Product details
 
 ## Week 10 (30 Aug - 5 Sep)
+> Goals accomplished:
+> - added a method to print all passengers' wishlists at once in one page
+
+> Problems encountered:
+> - Nil
+
+> Future goals:
+> - balance values + create a formula to calculate score
+> - create .txt files and file handling to store and read Customer and Product details
 
 ## Sep Holiday (5 Sep - 10 Sep) **Submission date is 10 Sep**
