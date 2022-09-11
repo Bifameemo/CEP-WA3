@@ -6,6 +6,7 @@ from player import Player
 from customer import Customer
 from bus import Bus
 
+# credits to https://www.usna.edu/Users/cs/roche/courses/s15si335/proj1/files.php%3Ff=names.txt&downloadcode=yes
 # file handling to extract all names from customer_names.txt
 customer_names = open("customer_names.txt", "r")
 line = customer_names.readline()
@@ -15,6 +16,7 @@ while line != "":
     line = customer_names.readline()
 customer_names.close()
 
+# credits to https://lar5.com/ikea/
 # file handling to extract all IKEA Product names from product_names.txt
 product_names = open("product_names.txt", "r")
 line = product_names.readline()
