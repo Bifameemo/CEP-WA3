@@ -119,7 +119,10 @@ while True:
             all_receipts = []
             for customer in bus.customers:
                 for receipt in customer.receipts:
-                    all_receipts.append(f"{receipt} from {customer.name}")
+                    if "bought" in receipt:
+                        all_receipts.append(f"{receipt} from {customer.name}")
+                    else:
+                        all_receipts.append(f"{receipt} to {customer.name}")
             if len(all_receipts) == 0:
                 print(" Nothing much has happened today...")
             else:
