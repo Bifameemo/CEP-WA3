@@ -2,9 +2,9 @@ import os
 # running os.system("CLS") clears the screen
 # always run before printing a new screen
 import random
-from player_copy import Player
-from customer_copy import Customer
-from bus_copy import Bus
+from player import Player
+from customer import Customer
+from bus import Bus
 
 # file handling to extract all names from customer_names.txt
 customer_names = open("customer_names.txt", "r")
